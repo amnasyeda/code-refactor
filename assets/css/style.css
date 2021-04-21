@@ -1,4 +1,4 @@
-/* body styles start */
+/* universal styles start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,8 +7,9 @@
 
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
 }
-/* body end */
+/* universal styles end */
 
 /* header styles start*/
 .header {
@@ -44,14 +45,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 /* end header */
 
 /* hero styles start */
@@ -81,6 +74,18 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+ .content img {
+     max-height: 200px;
+ }
+
+ h2 {
+     margin-bottom: 20px;
+     padding: 50px;
+     height: 300px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background-color: #0072bb;
+     color: #ffffff
+     }
 /* end content */
 
 /* benefits styles start */
@@ -102,6 +107,7 @@ p {
 
 .benefit-sections h3 {
     margin-bottom: 10px;
+    text-align: centre;
     color: #ffffff;
 }
 
