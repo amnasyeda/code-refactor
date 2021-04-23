@@ -6,7 +6,7 @@ Purpose: to recode a webpage in order to be functional through all links; it mus
 
 
 Deployed Git Hub URL: 
-<a href="https://amnasyeda.github.io/code-refactor/">Click here</a>
+<a href="https://amnasyeda.github.io/code-refactor/" target="_blank">Click here</a>
 
 
 Please note that the link above is not for a functional website and is only for grading purposes for this program. 
